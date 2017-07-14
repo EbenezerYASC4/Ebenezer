@@ -8,4 +8,4 @@ function rand(num) {
     console.log (randInt);
     return randInt;
 }
-rand(50);
+rand(50);git
