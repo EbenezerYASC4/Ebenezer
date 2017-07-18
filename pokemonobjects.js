@@ -17,11 +17,11 @@ var Pikachu =   {
     "attack" : "choke slam",
     "legend" : " false"
 }
-var Charizard = new people("Charizard", "Fire", 180, " butt clap", "false" );
-var Balbasaur = new people ("Balbasaur", "water");
-var Eevee = new people ( "Eevee", "Earth", 200,"Slap", "true");
-var snorlax = new people ("Snorlax", "Lightening", 300, "slap sack", "true ");
-var ditto =  new people("Ditto", "fire", 300, 120, "lava", "true");
+var Charizard = new people("Charizard", "Fire", 180, " butt clap", false );
+var Balbasaur = new people ("Balbasaur", "water", 300, "kick", true);
+var Eevee = new people ( "Eevee", "Earth", 200,"Slap", true);
+var snorlax = new people ("Snorlax", "Lightening", 300, "slap sack", true );
+var ditto =  new people("Ditto", "fire", 300, 120, "lava", true);
  
 var lineup = [Pikachu, Charizard, Balbasaur,Eevee, snorlax, ditto];
 
@@ -31,10 +31,14 @@ var lineup = [Pikachu, Charizard, Balbasaur,Eevee, snorlax, ditto];
  }}
  printRoster();
 
+ function pokemonattack (){
 
+ for(var i=0;i<6; i++){
+    // lineup[i].HP = lineup[i].HP -10;
+    lineup[i].HP -= 10
 
-
-pokemonAttacked() = lineup
-while (pokemonAttacked = 0, pokemonAttacked <100){ 
-
-}
+ }}
+ return pokemonattack();
+// pokemonattack();
+// printRoster();
+//Create a new function called pokemonAttacked that loops and subtracts 10HP from each Pokemon in your roster. It should then log all your updated objects by calling printRoster

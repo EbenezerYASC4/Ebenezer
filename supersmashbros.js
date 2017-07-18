@@ -8,7 +8,7 @@ var thirdArray = ["Mario,", "Luigie ","Kerby", "Pikachu", "Donkey Kong "];
 
 var question = prompt ("How many times would you like to strike? You have 5 chances ");
 
-var strikeChances = 5
+var strikeChances = 5;
 
  strikeChances = strikeChances - question;
 
@@ -27,10 +27,13 @@ else{console.log(" sorry you have "+ strikeChances+ " left ");
 }; 
 
  }
+var playerChoice ="";
+
 var secondQuestion = prompt("who would you like to Use to attack, Mario, Pickachu, Kerby , Donkey Kong, Luigie");
-var playerChoice = secondQuestion = (thirdArrayplayerChoice);
+  for (var playerChoice = 0; playerChoice===thirdArray; playerChoice++);
+  secondQuestion = (playerChoice);
     // thirdArray = [secondQuestion];
-    console.log(thirdArray);
+    console.log(playerChoice);
 
  console.log (" Good choice you have picked "+ thirdArray);
 
