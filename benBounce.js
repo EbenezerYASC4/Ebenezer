@@ -19,5 +19,6 @@ function draw(){
     
     xPos += x;
     yPos += y;
-  
 }
+
+
