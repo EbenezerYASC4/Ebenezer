@@ -14,8 +14,8 @@ function draw(){
     ellipse(xPos, yPos, 50);
     fill (29, 40, 115);
    
-    if(xPos<25 || xPos>475) { x= x*-1;};
-    if(yPos<25 || yPos>375) { y= y*-1;};
+    if(xPos<10 || xPos>475) { x= x*+1;};
+    if(yPos<10 || yPos>375) { y= y*+1;};
     
     xPos += x;
     yPos += y;
