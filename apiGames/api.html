@@ -1,0 +1,50 @@
+<html>
+<head> 
+<link rel="stylesheet" href="api.css">
+
+  <!--Reference platform.js library here-->
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+    <!--Reference Client ID in meta tag here-->
+  <!--620692403374-1b00matm39erpmb5b1vhaoa7e3rbs4vo.apps.googleusercontent.com-->
+  <meta name="google-signin-client_id" id= "sign-in" content="620692403374-1b00matm39erpmb5b1vhaoa7e3rbs4vo.apps.googleusercontent.com"->
+
+    <!--jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src='api.js'></script>
+   </head>
+   
+
+   <a href="#" id= "sign-out"onclick="signOut();">Sign out</a>
+<script>
+  function signOut() {
+    var auth2 = gapi.auth2.getAuthInstance();
+    auth2.signOut().then(function () {
+      console.log('User signed out.');
+    });
+  }
+</script>
+<body>
+  <div class="g-signin2" id="sign-in"data-onsuccess="onSignIn"></div>
+  <div class="slideshow-container">
+ <div class="mySlides fade">
+   <div class="numbertext"></div>
+</div>
+</head>
+<img>
+<body class"index"id= "text">
+Welcome to Ben and Tye... Game Server<br>
+
+
+<a href="https://localhost:8000/api.html"><body>>Sign in and click here to play</a>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

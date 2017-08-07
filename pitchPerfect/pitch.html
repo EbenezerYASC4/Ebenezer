@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <link rel="stylesheet" href="pitch.css">
+       <script src="pitch.js"></script>
+       <title>Memes</title>
+
+            <!--Reference platform.js library here-->
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+    <!--Reference Client ID in meta tag here-->
+  <!--620692403374-1b00matm39erpmb5b1vhaoa7e3rbs4vo.apps.googleusercontent.com-->
+<meta name="google-signin-client_id" id= "sign-in" content="620692403374-1b00matm39erpmb5b1vhaoa7e3rbs4vo.apps.googleusercontent.com"->
+    <!--jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   </head>
+   
+
+   <a href="#" id= "sign-out"onclick="signOut();">Sign out</a>
+<script>
+  function signOut() {
+    var auth2 = gapi.auth2.getAuthInstance();
+    auth2.signOut().then(function () {
+      console.log('User signed out.');
+    });
+  }
+</script>
+<body>
+  <div class="g-signin2" id="sign-in"data-onsuccess="onSignIn"></div>
+  <div class="slideshow-container">
+ <div class="mySlides fade">
+   <div class="numbertext"></div>
+   <img src="https://vignette1.wikia.nocookie.net/voltron/images/7/72/54._Shiro_and_Keith_are_so_done_with_this.png/revision/latest?cb=20160803013925" style="width:500%">
+</div>
+
+ <div class="mySlides fade">
+   <div class="numbertext"></div>
+   <img src="https://vignette1.wikia.nocookie.net/fairytail/images/8/84/Slider_-_Anime.png/revision/latest/scale-to-width-down/670?cb=20160425152256" style="width:500%">
+ </div>
+
+ <div class="mySlides fade">
+   <div class="numbertext"></div>
+   <img src="https://i.annihil.us/u/prod/marvel/i/mg/9/00/537bcb1133fd7.jpg" style="width:500%">
+ </div>
+
+    <button id = "meme" onclick="plusSlides(1)"><marquee direction ="scroll">Click Here for your random meme</marquee></button>
+
+</div>
+<br>
+
+<div style="text-align:center">
+ <span class="dot" onclick="currentSlide(1)"></span>
+ <span class="dot" onclick="currentSlide(2)"></span>
+ <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+   </body>
+</html>

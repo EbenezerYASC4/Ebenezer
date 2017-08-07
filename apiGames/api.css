@@ -1,0 +1,40 @@
+
+body{
+ font-size: 15px;
+ padding: 8px 12px;
+ position: absolute;
+ bottom: 0px;
+ height:250px;
+ width: 50%;
+ text-align: center;
+}
+
+body{
+    background:gray;
+   font-size:27px; 
+   font-style:italic;
+   padding: 7px;
+    color:red;
+    text-align: right;
+    
+    
+}
+
+#sign-out{
+background:blue;
+border:red;     
+    margin-top: 300px;
+    margin-bottom: 200px;
+    /*margin-right: 400px;
+    margin-left: 350px; */
+}
+#sign-in{
+border:blue; 
+    margin-top: -35px;
+    margin-bottom: 250px;
+    margin-right: 400px;
+    margin-left: 350px;   
+}
+#index{
+    
+}

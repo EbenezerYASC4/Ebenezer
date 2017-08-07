@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Game it up</title>
+  <link src= 'spreadsheets' href =".css">
+  <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+  <script src= '.js'></script>
+  <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+<script>
+ // Initialize Firebase
+ var config = {
+   apiKey: "AIzaSyAyEcEpsv-a3ynxj4NAUxjyNlMlVmIAkCQ",
+   authDomain: "fire-messages-d6f4d.firebaseapp.com",
+   databaseURL: "https://fire-messages-d6f4d.firebaseio.com",
+   projectId: "fire-messages-d6f4d",
+   storageBucket: "",
+   messagingSenderId: "405757713946"
+ };
+ firebase.initializeApp(config);
+</script>
+</head>
+
+<body>
+<img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9AOtujTtNMjdDeQ4Eu_m-nafOTMA1ftWGhr3L5nyMo_SC36ylJw"></img>
+<img src = "http://cdn.dick-blick.com/items/102/40/10240-1009-1-2ww-m.jpg"></img>
+<img id =  "last-img"src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkEghntFAHYsCaOE904Q0dPQ58Krg1Rfn0XVQgFWU8qLoGlACC"></img>
+   <div class="allMessages">   </div>
+   <!--For user to input messages-->
+   <div class="userContainer">
+       <form><div class="textContainer" id= "name">
+               <div><p>Ben and Tye Game<br>Input Your name:</p><input id="name" type="text"></div>
+           </div>
+           <div class="GObutton">
+               <input type="reset" onclick="updateDB();" value="Submit/Update">
+           </div>
+       </form>
+   </div>
+
+   <p><button id="Rock">Rock!</button></p>
+   <p><button id="Paper">Paper!</button></p>
+   <p><button id="Scissors">Scissors!</button></p>
+</body>
+</html>

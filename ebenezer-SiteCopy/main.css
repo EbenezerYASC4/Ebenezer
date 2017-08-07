@@ -1,0 +1,114 @@
+
+
+.first{
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    text-align:center;
+    background: red;
+    width:100%; 
+    height:100%;
+    background-image:center;
+}
+.second{
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    text-align:center;    
+    background: green;
+    width:100%;
+    height:100%;
+    background-size:center;
+}
+.third{
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    text-align:center;
+    background:orange;
+    width: 100%;
+    height:100%;
+    background-size:center;
+}
+.forth{
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    text-align:center;
+    background:orangered;
+    height:100%;
+    width:100%;
+    font-size:30px;
+    background-size:center;
+
+}
+.fifth{
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    text-align:center;
+    background:skyblue;
+    width:700;
+    height:500;
+    background-size:center;
+}
+.sixth{font-size: 40px;
+font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    text-align:center;
+    background: purple;
+    width:100%;
+    height:100%;
+    background-size: center;
+}
+.seventh{
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    text-align:center;
+    background:lightblue;
+    width:100%;
+    height:100%;
+    background-size: center;
+}
+.eighth{
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    text-align:center;
+    background:yellow;
+    width:100%;
+    height:100%;
+    background-size: center;
+}
+.ninth{
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    text-align:center;
+    background: peachpuff;
+    width:100%;
+    height:100%;
+    background-size: center;
+}
+.tenth{
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    text-align:center;
+    color:white;
+    background:brown;
+    width:100%;
+    height:100%;
+    background-size: center;
+}
+.eleventh{font-size: 40px;
+    font-size:40px;
+    color:white;
+    background:blue;
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    text-align:center;
+    width:100%;
+    height:100%;
+    background-size: center;
+}
+.twelveth{
+    font-size: 40px;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    text-align:center;
+    background:black;
+    width:100%;
+    height:100%;
+    background-size: center;
+}
